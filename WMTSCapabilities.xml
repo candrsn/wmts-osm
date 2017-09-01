@@ -15,11 +15,115 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>NOAA Hurricane Harvey Tiles</ows:Title>
+            <ows:Title>NOAA Hurricane Harvey Tiles 20170827</ows:Title>
+            <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
+            <ows:Identifier>20170827-rgb</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>20170827-rgb</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://stormscdn.ngs.noaa.gov/{Style}/{TileMatrix}/{TileCol}/{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>NOAA Hurricane Harvey Tiles 20170828a</ows:Title>
+            <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
+            <ows:Identifier>20170828a-rgb</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>20170828a-rgb</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://stormscdn.ngs.noaa.gov/{Style}/{TileMatrix}/{TileCol}/{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>NOAA Hurricane Harvey Tiles 20170828b</ows:Title>
+            <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
+            <ows:Identifier>20170828b-rgb</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>20170828b-rgb</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://stormscdn.ngs.noaa.gov/{Style}/{TileMatrix}/{TileCol}/{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>NOAA Hurricane Harvey Tiles 20170829a</ows:Title>
+            <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
+            <ows:Identifier>20170829a-rgb</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>20170829a-rgb</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://stormscdn.ngs.noaa.gov/{Style}/{TileMatrix}/{TileCol}/{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>NOAA Hurricane Harvey Tiles 20170829b</ows:Title>
+            <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
+            <ows:Identifier>20170829b-rgb</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>20170829b-rgb</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://stormscdn.ngs.noaa.gov/{Style}/{TileMatrix}/{TileCol}/{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>NOAA Hurricane Harvey Tiles 20170830</ows:Title>
+            <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
+            <ows:Identifier>20170830-rgb</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>20170830-rgb</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://stormscdn.ngs.noaa.gov/{Style}/{TileMatrix}/{TileCol}/{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>NOAA Hurricane Harvey Tiles 20170831a</ows:Title>
             <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
             <ows:Identifier>20170831a-rgb</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>20170831a-rgb</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://stormscdn.ngs.noaa.gov/{Style}/{TileMatrix}/{TileCol}/{TileRow}"
+                         resourceType="tile"/>
+        </Layer>        <Layer>
+            <ows:Title>NOAA Hurricane Harvey Tiles 20170831b</ows:Title>
+            <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
+            <ows:Identifier>20170831b-rgb</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>20170831b-rgb</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
