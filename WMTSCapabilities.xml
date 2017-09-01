@@ -19,7 +19,7 @@
             <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
             <ows:Identifier>20170831a-rgb</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>20170831a</ows:Identifier>
+                <ows:Identifier>20170831a-rgb</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
