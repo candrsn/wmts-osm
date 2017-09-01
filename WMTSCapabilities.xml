@@ -17,9 +17,9 @@
         <Layer>
             <ows:Title>NOAA Hurricane Harvey Tiles</ows:Title>
             <ows:Abstract>NOAA damage assessment flights</ows:Abstract>
-            <ows:Identifier>20170830-rgb</ows:Identifier>
+            <ows:Identifier>20170831a-rgb</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>20170830</ows:Identifier>
+                <ows:Identifier>20170831a</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
