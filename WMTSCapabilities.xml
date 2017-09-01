@@ -15,49 +15,22 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>OpenStreetMap</ows:Title>
-            <ows:Abstract>Standard OSM Layer rendered using openstreetmap-carto and Mapnik</ows:Abstract>
-            <ows:Identifier>mapnik</ows:Identifier>
-            <Style isDefault="true">
-                <ows:Identifier>mapnik</ows:Identifier>
-            </Style>
-            <Format>image/png</Format>
-            <TileMatrixSetLink>
-                <TileMatrixSet>google3857</TileMatrixSet>
-            </TileMatrixSetLink>
-            <ResourceURL format="image/png"
-                         template="https://a.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-        </Layer>
-        <Layer>
-            <ows:Title>Humanitarian</ows:Title>
+            <ows:Title>NOAA Hurricane Harvey Tiles</ows:Title>
             <ows:Abstract>Humanitarian OpenStreetMap Team</ows:Abstract>
-            <ows:Identifier>hot</ows:Identifier>
+            <ows:Identifier>20170830-rgb</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>hot</ows:Identifier>
+                <ows:Identifier>20170830</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
-                <TileMatrixSet>google3857</TileMatrixSet>
+                <TileMatrixSet></TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://tile-a.openstreetmap.fr/{Style}{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://tile-b.openstreetmap.fr/{Style}/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://tile-c.openstreetmap.fr/{Style}/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://stormscdn.ngs.noaa.gov/{Style}/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
-            <ows:Identifier>google3857</ows:Identifier>
+            <ows:Identifier></ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
                 <ows:LowerCorner>977650 5838030</ows:LowerCorner>
                 <ows:UpperCorner>1913530 6281290</ows:UpperCorner>
