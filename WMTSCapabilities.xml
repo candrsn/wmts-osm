@@ -4,14 +4,14 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>openstreetmap.org</ows:Title>
+        <ows:Title>NOAA Hurricane Harvey Flights</ows:Title>
         <ows:Abstract>
-            OpenStreetMap is an initiative to create and provide free geographic data, such as street maps, to anyone.
+            NOAA is publishing a TMS of Hurricane Harvey flights
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
         <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
         <ows:Fees>none</ows:Fees>
-        <ows:AccessConstraints>https://operations.osmfoundation.org/policies/tiles/</ows:AccessConstraints>
+        <ows:AccessConstraints>none</ows:AccessConstraints>
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
